@@ -5,6 +5,7 @@ channels:
   - conda-forge
   - intel
 dependencies:
+  - python=3.9
   - black
   - debugpy
   - ipython
@@ -67,6 +68,21 @@ dependencies:
   - mpi4py
   - ccache
   - numexpr
+  - asn1crypto
+  - bokeh
+  - chardet
+  - cython
+  - funcsigs
+  - libgfortran-ng
+  - libxml2
+  - llvm
+  - modin-all
+  - pyarrow
+  - pyeditline
+  - scikit-ipp
+  - smp
+  - neural-compressor-full
+  - dpnp
   - pip:
      - tensorrt
      - horovod[tensorflow,keras]
