@@ -83,8 +83,19 @@ dependencies:
   - smp
   - neural-compressor-full
   - dpnp
+  - ucx
+  - ucx-proc
+  - networkx
+  - oneccl-devel
+  - cuda-nvcc
+  - cuda-cudart-dev
+  - cuda-compiler
+  - cuda-cudart-static
   - pip:
      - tensorrt
-     - horovod[tensorflow,keras]
 variables:
   HOROVOD_GPU_OPERATIONS: NCCL
+  HOROVOD_WITH_TENSORFLOW: 1
+  HOROVOD_WITHOUT_GLOO: 1
+  HOROVOD_WITHOUT_PYTORCH: 1
+  HOROVOD_WITHOUT_MXNET: 1
