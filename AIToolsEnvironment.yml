@@ -91,6 +91,7 @@ dependencies:
   - cuda-cudart-dev
   - cuda-compiler
   - cuda-cudart-static
+  - singularityce
   - pip:
      - tensorrt
 variables:
