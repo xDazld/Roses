@@ -92,6 +92,8 @@ dependencies:
   - cuda-compiler
   - cuda-cudart-static
   - singularityce
+  - rdma-core
+  - cutensor
   - pip:
      - tensorrt
 variables:
