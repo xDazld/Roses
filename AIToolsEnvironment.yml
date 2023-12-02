@@ -34,71 +34,30 @@ dependencies:
   - xgboost
   - seaborn
   - tensorflow-gpu
-  - cmake
-  - ca-certificates
-  - certifi
-  - openssl
   - tabulate
-  - nvidia-ml-py
-  - pillow
-  - py-opencv
-  - nvtx
-  - pexpect
-  - psutil
-  - future
-  - jupyterlab
-  - notebook
-  - mock
-  - portpicker
-  - h5py
   - keras-preprocessing
   - keras-applications
   - tensorboard
   - jupytext
   - tensorflow-datasets
-  - bazel
   - mkl-dnn
-  - nccl
-  - nsight-compute
   - cudnn
   - lxml
   - pytables
-  - pip
-  - cxx-compiler
-  - mpi4py
-  - ccache
-  - numexpr
-  - asn1crypto
-  - bokeh
-  - chardet
-  - cython
-  - funcsigs
-  - libgfortran-ng
-  - libxml2
-  - llvm
-  - modin-all
-  - pyarrow
-  - pyeditline
   - scikit-ipp
-  - smp
-  - neural-compressor-full
-  - dpnp
-  - ucx
-  - ucx-proc
-  - networkx
-  - oneccl-devel
-  - cuda-nvcc
-  - cuda-cudart-dev
-  - cuda-compiler
-  - cuda-cudart-static
   - singularityce
+  - horovod
+  - pip
   - rdma-core
+  - nccl
+  - nsight-compute
+  - ucx
   - cutensor
+  - openmpi
+  - dpcpp-cpp-rt
+  - dpnp
+  - impi-devel
+  - mkl-dpcpp
+  - modin-all
   - pip:
      - tensorrt
-variables:
-  HOROVOD_GPU_OPERATIONS: NCCL
-  HOROVOD_WITH_TENSORFLOW: 1
-  HOROVOD_WITHOUT_GLOO: 1
-  HOROVOD_WITHOUT_PYTORCH: 1
-  HOROVOD_WITHOUT_MXNET: 1
